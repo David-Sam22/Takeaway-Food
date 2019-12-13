@@ -1,0 +1,222 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+*{color: black;}
+
+header,h1,#err,#query,#test,#RegForm,#set2,#ASec3,#MSec1,#MSec2,#MSec3,#ESec1,dl,table,#TSec1, #HSec1,#bookform,.HSec3,.HSec2,h2{
+	border: 1px inset darkgray;
+	margin: 0.5em;padding: 0.5em;
+	background-color: White;
+	opacity:0.9;}
+
+h1{font-size: 22px;}
+
+body{font-size:28px;
+	padding:30px;}
+	
+.HSec3 > p{font-weight: bold;}
+
+nav a:hover {background-color: yellow;
+	font-weight: bold;
+	padding: .625em 1.5em;
+	text-decoration: none;
+	color: #000;
+	border-right: 1px solid #bababa;}
+
+#HSec1{clear:both;}
+
+#HSec1> #Ing{float:left;
+	position:relative;
+	left:50px;
+	bottom:15px;}
+	
+.recipe{float:right;
+	position:relative;
+	right:50px;}
+	
+#met{clear:both;
+	width:98%;
+	position:relative;
+	left:8px;}
+	
+#HSec1>h2 ,h3,header,#MSec2 > p,#MSec3 > p {text-align:center;}
+
+#intro{width:90%;
+	position:relative;
+	left:8px;}
+	
+#intro > p,#met>p,#intro > h3,#met > h4,#ASec2>p{text-indent:30px;}
+
+
+h2{text-align:center;
+	color:red;
+	text-decoration:underline;}
+	
+
+#Loc1,#Loc2 {float:right;
+			clear:both;}
+
+#Cui1 {float:left;
+		width:30%;
+		clear:left;
+		text-align:center;}
+		
+#Cui2 {float:right;
+		width:30%;
+		clear:both;
+		text-align:center;}
+
+table, th, td {border: 1px solid black;
+				width: 67%;
+				border-collapse:collapse;}
+
+#CC ,aside>p,#ASec2 p{
+	border: 1px inset darkgray;
+	margin: 0.5em;
+	padding: 0.2em;
+	background-color: lightgray;
+	text-align: center;
+}
+
+
+#me{float:right;
+	clear:both; 
+	position:relative;
+	right:21px;
+	bottom:22px;}
+	
+dl {float:right;
+	border: 0.1px gray;
+	padding: 1em;
+	position:relative;
+	bottom:36px;
+	right:4px;
+	height:118px;
+	width:25%;}
+	
+dt {float: left;
+	clear: both;
+	width: 110px;
+	height: 30%;
+	text-align: right;
+	font-weight: bold;
+	color: black;
+	font-size:20px;}
+	
+dd {float:left;
+	display:inline;
+	font-size:20px;}
+	
+#ASec1>p{clear:both;
+	float:right;
+	position:relative;
+	right:4px;
+	bottom:73px;}
+
+ul{list-style-type:none;}
+
+h6,h5{text-align:center;
+	color:blue;}
+
+h4{color:blue;
+	position:relative;
+	left:35px;
+	border:3px solid;
+	width:15%;
+	text-align:center;}
+	
+#AP p ,#ASec3 em{color:lime;}
+
+#MSec1 #F1:hover:after{content: url(../images/image6.jpg);display:block;}
+#MSec1 #F2:hover:after{content: url(../images/image7.jpg);display:block;}
+#MSec1 #F3:hover:after{content: url(../images/image8.jpg);display:block;}
+#MSec1 #F4:hover:after{content: url(../images/image9.jpg);display:block;}
+#MSec1 #F5:hover:after{content: url(../images/image10.jpg);display:block;}
+#MSec1 #F6:hover:after{content: url(../images/image11.jpg);display:block;}
+#MSec1 #F7:hover:after{content: url(../images/image12.jpg);display:block;}
+#MSec1 #F8:hover:after{content: url(../images/image13.jpg);display:block;}
+#MSec1 #F9:hover:after{content: url(../images/image14.jpg);display:block;}
+#MSec1 #F10:hover:after{content: url(../images/image15.jpg);display:block;}
+#MSec1 #F11:hover:after{content: url(../images/image16.jpg);display:block;}
+#MSec1 #F12:hover:after{content: url(../images/image17.jpg);display:block;}
+#MSec1 #F13:hover:after{content: url(../images/image18.jpg);display:block;}
+#MSec1 #F14:hover:after{content: url(../images/image19.jpg);display:block;}
+#MSec1 #F15:hover:after{content: url(../images/image20.jpg);display:block;}
+#MSec1 #F16:hover:after{content: url(../images/image21.jpg);display:block;}
+#MSec1 #F17:hover:after{content: url(../images/image22.jpg);display:block;}
+#MSec1 #F18:hover:after{content: url(../images/image23.jpg);display:block;}
+#MSec1 #F19:hover:after{content: url(../images/image24.jpg);display:block;}
+#MSec1 #F20:hover:after{content: url(../images/image25.jpg);display:block;}
+#MSec1 #F21:hover:after{content: url(../images/image26.jpg);display:block;}
+#MSec1 #F22:hover:after{content: url(../images/image27.jpg);display:block;}
+
+html{ 
+ background-image: url(images/image5.jpg); 
+ background-size:100%;}
+ 
+footer{border-top: 4px double darkgray;
+		clear: both;
+		text-align:center;
+		font-weight: bold;
+		font-size:16px} 
+
+.fa-facebook{float:right;
+			position:relative;
+			bottom:50px;
+			left:10px;}
+		
+.fa {
+    padding: 12.5px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+fieldset, label { margin: 0; padding: 0; }
+
+.rating { 
+  border: none;
+  float: right;
+  position:relative;
+  bottom: 50px;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+
+
